@@ -1,243 +1,218 @@
-# Home care — cleaning & disinfection (live-checked, EU-anchored, India-strict)
+# Personal care — category standards (live-checked, EU-anchored)
 
-> **This file is a map, not a rulebook.** Chemical rules change fast — this file
-> says **what to check and where**; it does **not** freeze limits, approval
-> statuses, or regulation numbers. Pull the current status live before any verdict.
+> **This file is a map, not a rulebook.** Cosmetic standards change on a rolling
+> basis (the EU amends its annexes several times a year), so this file says
+> **what to check and where to check it** — it does **not** freeze the current
+> numbers **or the current legal status of any ingredient**. Fetch both live.
 >
-> ## ⚠ Safety first — this is the most physically dangerous category
-> These are hazardous chemicals, so **safety outranks everything** (it leads the
-> priority order in `instructions.md`):
-> - **NEVER-MIX rule (say this in any relevant answer):** **bleach + any acidic
->   toilet/tile cleaner → chlorine gas**; **bleach + ammonia → toxic chloramine
->   vapour.** Both can be serious. Don't recommend "combining for extra power," ever.
-> - **Corrosivity:** toilet-bowl and hard-water cleaners are often **hydrochloric
->   acid**; drain/oven cleaners are often **caustic lye (sodium hydroxide)** — both
->   cause chemical burns and eye damage. Flag **gloves, eye protection and
->   ventilation**, and keep off unsuitable surfaces (marble, natural stone, metals).
-> - **Child / vulnerable-person safety:** **laundry & dishwasher pods are a leading
->   child-poisoning hazard** — prefer child-resistant packaging, store high and
->   locked, keep away from children and anyone with dementia; **never decant into a
->   food or drink bottle.**
-> - **Active-harm carve-out (not a shopping question):** if someone has **swallowed,
->   inhaled fumes from, splashed in the eye, been burned by, or mixed** these products
->   and produced gas — that's a **poison-control / emergency** situation, not a
->   product choice. Point there first.
+> - **Quick / list mode:** use the outline below for a fast read; you may cite a
+>   well-known ballpark limit but **label it unverified** and offer to confirm.
+> - **Deep mode:** **pull the current limit *and status* live before any verdict** —
+>   same "verify each time" rule as `deep-dive.md`. Cross-check US FDA; treat
+>   **India's CDSCO + BIS** as the local floor.
 >
-> ## Classify first (the claim decides the regime)
-> - **Plain cleaner / detergent** (removes dirt, no disease claim) → a **general
->   consumer product**.
-> - **Disinfectant / "germ-kill" / "99.9%" / "antibacterial" / "antiviral"** → this
->   is a **biocide / disinfectant** claim and pulls the product into a stricter,
->   efficacy-and-registration regime (see §5). A cleaner is **not** a disinfectant.
-> - **On-body products** (hand wash, hand sanitizer, soap) → **personal care**, not
->   here (see `category-personal-care.md`). **Household insecticides** (mosquito,
->   cockroach, repellents) are a **separate pesticide regime** — out of scope here.
+> **Where to fetch current standards (go here first — these addresses are durable;
+> the contents they hold are not):**
+> - **EU CosIng database** — per-ingredient **current** status & maximum
+>   concentration; the fastest "is X allowed *right now*, and at what %?" check.
+> - **EUR-Lex** — the **EU Cosmetics Regulation** text + amendments (read the current
+>   consolidated version). Its annexes are the map: **II = prohibited list · III =
+>   restricted · IV = colours · V = preservatives · VI = UV filters.**
+> - **SCCS opinions** (health.ec.europa.eu) — the safety science behind a limit.
+> - **ISO methods** for test standards (SPF, UVA, abrasivity).
+> - **India: CDSCO** (Cosmetics Rules) + applicable **BIS** standards — the local
+>   floor. *(FSSAI is a food regulator — not the cosmetics authority.)*
+> - Cross-check: **US FDA** (incl. the OTC drug monographs for drug-class actives).
 >
-> ## Where to fetch current standards (durable addresses; contents change — verify)
-> - **EU — the anchor.** Detergents & surfactants: the **EU detergents & surfactants
->   regulation** (recently overhauled — **check the current instrument on EUR-Lex**,
->   and note there's a transition period) covers **surfactant biodegradability,
->   phosphate / phosphorus limits in consumer laundry and consumer automatic-dishwasher
->   detergents, and fragrance-allergen labelling**. Hazard classification & labelling:
->   the **EU CLP regulation** — corrosive / irritant pictograms + the UFI /
->   poison-centre notification (check the current version). **Disinfectants:** the
->   **EU Biocidal Products Regulation** — the active + product need authorisation and
->   proven efficacy.
-> - **US** cross-check: disinfectants are **antimicrobial pesticides registered with
->   the EPA** (look for an EPA registration number); FDA for hand antiseptics.
-> - **India — messier, and genuinely unsettled; verify per product:**
->   - **Plain detergents / cleaners** are **general consumer household goods** — no
->     chemical registration. **A BIS standard exists** (e.g. **IS 4955** for household
->     laundry detergent powder) but **the ISI mark is voluntary** here — check whether
->     the exact product is under any compulsory Quality Control Order rather than
->     assuming a mark is required.
->   - **Disinfectants / germ-kill products have no unified "biocide" regime.** A
->     product can fall under the **Drugs & Cosmetics Act** (disinfectant standards;
->     Schedule K can exempt disinfectants from the drug stock/sale licence; **CDSCO**
->     oversight) **and/or** **CIB&RC under the Insecticides Act** (which a pending
->     Pesticide Management Bill may replace). Biocide guidelines are still under
->     discussion — so **classification is genuinely unsettled; check the specific
->     product's claim and how it's actually registered**, don't assert one clean rule.
->   - Hazardous-chemical handling sits under India's **hazardous-chemicals rules** +
->     BIS labelling.
-> - *Per-hazard nuance:* the EU is usually the strict reference, but compare **per
->   substance / per claim** — a stricter limit can reflect policy, not just safety.
+> **Classify first.** Anti-dandruff shampoos, fluoride toothpastes, antiperspirants,
+> acne actives, and SPF can cross the cosmetic/drug line. An EU *cosmetic* ban is
+> evidence, **not** proof a *drug*-class active is inferior (see *Standards* in
+> `instructions.md`). Check the product's **current** status; don't rely on a status
+> written in this file.
 >
-> ## Evidence hierarchy
-> Label + **Safety Data Sheet (SDS)** → the applicable standard (the EU detergents /
-> CLP / biocide regime, or the Indian regime for the claim — fetched live) → a
-> **recognised efficacy test** (for disinfectants) or **biodegradability data** (for
-> green claims) → independent test → reviews **only** for usability (smell, cutting
-> power, residue). **Treat an undisclosed formula / missing SDS as an evidence gap,
-> not a pass.**
+> **Evidence hierarchy** for any product: current label / official Indian SKU page
+> → applicable standard (CosIng / the right regime, fetched live) → credible
+> **finished-product test** → independent data → reviews **only** for feel /
+> experience (taste, sting, texture, adherence). A parts list never proves
+> finished-product performance.
 >
-> **What "good" means here, ranked by *Ranking* in `instructions.md` (safety first):**
-> 1. **Safety** — corrosivity / hazard labelling, mixing risk, child safety.
-> 2. **Does it actually work** — cleaning performance; for a disinfectant, *proven*
->    efficacy against the named pathogens at a stated contact time.
-> 3. **Environmental & health load** — surfactant biodegradability, phosphates,
->    fragrance allergens, VOCs.
-> 4. **Usability / value.**
+> *Caveat: the EU is usually strictest but substance-by-substance — verify each.*
 
-**Schema per sub-category:** What matters → Check live (where) → EU-vs-India gap →
-Red flags → Cross-check (marks / evidence) → Review lens → Evidence.
-**Generate candidates from criteria, not brand names** (cross-check, not a start).
-Mark undisclosed decisive figures **"not publicly verifiable."**
-**To add a category, copy this structure into `category-<name>.md`.**
+**Schema per sub-category:** What matters → Check live (where) → EU-vs-India gaps
+(or drug boundary) → Red flags → Cross-check brands (India) → Review lens →
+Evidence. **Generate candidates from the criteria, not from the brand names below**
+— they're a cross-check, not a starting point. Screen ingredients per
+**`deep-dive.md`**; mark undisclosed decisive figures **"not publicly verifiable."**
+**To add a new category, copy this whole structure into `category-<name>.md`.**
 
 ---
 
-## 1. Laundry detergents (powder / liquid / pods)
-- **What matters** — cleaning performance; **surfactant biodegradability**;
-  **phosphate / phosphorus** load; **enzymes and fragrance allergens** (skin
-  sensitivity); optical brighteners; and **pod child-safety**.
-- **Check live** — the current biodegradability + phosphate limits for **consumer
-  laundry** detergents under the **EU detergents regulation** (the stricter reference —
-  verify current); fragrance-allergen declaration; whether the product is a plain
-  detergent or makes an **"antibacterial" claim** (→ §5 disinfectant regime). India:
-  general consumer good; **IS 4955** is a reference but its mark is voluntary — verify.
-- **EU-vs-India gap** — EU limits phosphates and mandates allergen labelling; Indian
-  labels often disclose less → prefer better-disclosed, low-phosphate, readily
-  biodegradable formulas.
-- **Red flags** — **pods without child-resistant packaging**; heavy fragrance for
-  sensitive skin / eczema; "antibacterial" laundry claims with no efficacy evidence;
-  vague "eco / green" with no ecolabel or biodegradability data.
-- **Cross-check** — disclosed ingredients + SDS; a real **ecolabel** (e.g. EU
-  Ecolabel) beats the word "green"; reputable brand.
-- **Review lens** — stain removal, residue, scent, skin reaction.
-- **Evidence** — the EU detergents regulation (current), ecolabel criteria,
-  dermatology on detergent allergens.
-
-## 2. Dishwashing (hand dishwash + machine detergent / salt / rinse aid)
-- **What matters** — cleaning + rinse-off (food-contact-adjacent: it's on your
-  plates), skin irritation (hand dishwash), phosphates (machine detergents), fragrance.
-- **Check live** — the current phosphate / phosphorus limits for **consumer
-  automatic-dishwasher detergents** under the **EU detergents regulation**; surfactant
-  biodegradability; skin-irritant labelling (CLP). Rinse-aid residue and correct dosing.
-- **EU-vs-India gap** — EU tends to be tighter on phosphates + labelling; prefer
-  low-phosphate, well-rinsing, allergen-declared products.
-- **Red flags** — harsh formulas dried onto dishes without rinsing; "antibacterial
-  dishwash" claims with no evidence; skin-drying with no gloves guidance.
-- **Cross-check** — SDS + ingredient disclosure, ecolabel, reputable brand.
-- **Review lens** — grease-cutting, rinse/residue, hand feel.
-- **Evidence** — the EU detergents regulation + CLP (current), ecolabel criteria.
-
-## 3. All-purpose / floor / surface cleaners (incl. phenyl)
-- **What matters** — cleaning performance, **irritant / corrosive rating**, fragrance
-  load, and the **cleaner-vs-disinfectant** distinction.
-- **Check live** — CLP hazard classification (irritant / corrosive?); surfactant
-  biodegradability; whether a "disinfectant / kills 99.9%" claim is made (→ §5). Note
-  **black phenyl (coal-tar / cresol-based)** is harsher and more toxic than white
-  phenyl — check the actives.
-- **EU-vs-India gap** — EU hazard labelling (pictograms, UFI) is explicit; Indian
-  labels vary → read the SDS.
-- **Red flags** — a plain cleaner **marketed as a disinfectant** without efficacy
-  proof; heavy fragrance in enclosed spaces; corrosive product with no PPE guidance;
-  cresol-heavy phenyl used casually around children / pets.
-- **Cross-check** — SDS, hazard label, ecolabel where relevant.
-- **Review lens** — cleaning power, streaking, scent, surface safety.
-- **Evidence** — CLP + the EU detergents regulation (current), SDS.
-
-## 4. Toilet-bowl & acidic hard-water cleaners
-- **What matters** — **corrosive-acid safety first**, then descaling performance and
-  surface compatibility.
-- **Check live** — the acid used (often **hydrochloric acid**) and its CLP corrosive
-  classification; ventilation + glove guidance; surface warnings (damages marble /
-  natural stone / some metals). **State the NEVER-MIX rule** — an acidic toilet cleaner
-  **must not** be combined with bleach (→ chlorine gas).
-- **EU-vs-India gap** — EU corrosive-hazard labelling is explicit; the safety points
-  hold regardless of jurisdiction.
-- **Red flags** — no corrosive warning / child-resistant cap; instructions that invite
-  mixing with other products; decanted into an unlabeled bottle; used on stone/metal it
-  will etch.
-- **Cross-check** — corrosive hazard label + SDS, child-resistant packaging, reputable
-  brand.
-- **Review lens** — descaling/stain power, fumes, splash-back.
-- **Evidence** — CLP, SDS, manufacturer safety instructions.
-
-## 5. Disinfectants & "germ-kill" claims (the strict one)
-- **What matters** — **is the germ-kill claim actually proven, and is the product
-  correctly regulated?** A disinfectant claim is a high bar, not a marketing word.
+## 1. Oral care (toothpaste)
+- **What matters** — fluoride (the key anti-caries active); abrasivity; actives for
+  the specific need (sensitivity / gums); irritant load.
 - **Check live**
-  - **Efficacy needs a recognised test + named pathogens + a contact time.** Look for a
-    cited standard — a recognised efficacy standard such as the **EN 1276 / EN 14476 /
-    EN 1650 / EN 13697 family** (or the current equivalent) — **"kills 99.9%" alone,
-    with no test, no organism and no contact time, is not proof.** Disinfection also
-    requires the surface be **cleaned first** and the product left **wet for the full
-    contact time**.
-  - **Regulation — EU:** authorised under the **EU Biocidal Products Regulation**.
-    **US:** an **EPA registration number** (antimicrobial pesticide). **India:**
-    unsettled — may sit under the **Drugs & Cosmetics Act (CDSCO)** and/or **CIB&RC /
-    Insecticides Act**; **check how the specific product is actually registered** rather
-    than assuming.
-- **EU-vs-India gap** — the EU/US demand documented efficacy + registration; India's
-  framework is fragmented → weight products with **verifiable test reports** and clear
-  registration, and be wary of "ayurvedic / herbal disinfectant" germ claims without
-  data.
-- **Red flags** — "99.9%" with no test / organism / contact time; "sanitiser" and
-  "disinfectant" used interchangeably (different bars); a *cleaner* implying
-  disinfection; no registration evidence; disease-cure language.
-- **Cross-check** — a citable efficacy standard / EPA registration / lab report;
-  correct Indian registration for the claim.
-- **Review lens** — usability only; **never** infer efficacy from reviews.
-- **Evidence** — the EU biocide regime + recognised EN efficacy standards, US EPA,
-  published efficacy tests.
+  - *Fluoride:* present? which compound? total within the **current** EU cosmetic
+    cap? → **CosIng** (fluoride entries) / **EUR-Lex**. (EU treats toothpaste as a
+    cosmetic; above the cosmetic cap it becomes a *medicine* — confirm the current
+    cap and the children's-warning threshold live.)
+  - *Abrasivity:* the product's **RDA** vs the current ISO 11609 ceiling (RDA is
+    rarely on-pack — search brand data or third-party RDA lists).
+  - *Alternatives:* if **fluoride-free**, is it **nano-hydroxyapatite**, and at what
+    currently SCCS-permitted level? → CosIng / SCCS.
+- **Drug boundary** — a high-fluoride paste (above the cosmetic cap) is a **medicine**,
+  not a cosmetic; judge it as such and note prescription status.
+- **EU-vs-India gap** — India's fluoride labelling / warning rules tend to be lighter
+  than the EU's; use the current EU cap + warning as the bar (verify both live).
+- **Red flags** — whitening via high abrasion; "fluoride-free = safer" (loses the
+  main benefit unless nano-HAP); charcoal hype; treating a missing RDA as proof of
+  low abrasivity.
+- **Cross-check brands (India)** — Colgate, Sensodyne, Pepsodent, Dabur Red / Vicco
+  (herbal), Perfora / Dr. Sheth's (hydroxyapatite). *Verify the SKU's fluoride & RDA
+  live.*
+- **Review lens** — sensitivity-relief timeline, taste / foaming, tube quality,
+  counterfeits.
+- **Evidence** — ADA, Cochrane fluoride reviews, third-party RDA charts.
 
-## 6. Bleach (sodium hypochlorite) & oxidising cleaners
-- **What matters** — corrosivity, the **mixing hazard**, correct dilution + contact
-  time if used to disinfect, and surface/fabric damage.
-- **Check live** — CLP corrosive/irritant classification; **NEVER mix** — with acid →
-  **chlorine gas**, with ammonia → **chloramine vapour**; proper **dilution and contact
-  time** for any disinfection use (concentration + freshness matter, bleach degrades);
-  ventilation.
-- **EU-vs-India gap** — hazard labelling is clearer in the EU; the chemistry/safety is
-  universal.
-- **Red flags** — advice to mix "for strength"; using neat bleach on skin/food; storing
-  next to acids; no ventilation; expecting old/weak bleach to disinfect.
-- **Cross-check** — CLP label + SDS, stated available-chlorine %, reputable brand.
-- **Review lens** — whitening/stain power, smell, fabric safety.
-- **Evidence** — CLP, SDS, public-health disinfection guidance (dilution/contact).
+## 2. Hair (shampoo & conditioner)
+- **What matters** — ordinary cleansing vs dandruff / dermatitis / infection /
+  hair-loss treatment; scalp type + severity; evidence-backed active for the exact
+  condition; (sulfates / silicones are preference, not safety).
+- **Check live**
+  - *The active vs EU status:* **is this anti-dandruff active permitted in EU
+    cosmetics *right now*, and at what %?** → **CosIng** (the EU adds CMR bans on a
+    rolling basis, so check the live entry). Actives to expect: piroctone olamine,
+    ketoconazole, selenium sulfide, climbazole, salicylic acid.
+  - *Any preservative / active reclassified recently?* → SCCS / EUR-Lex updates.
+- **Drug boundary** — classify anti-dandruff / antifungal / hair-growth claims
+  **before** comparing jurisdictions; don't rank on EU cosmetic status alone. The
+  standout **divergence to check first**: **zinc pyrithione (ZPT)** — historically an
+  EU-vs-India split (EU-restricted in cosmetics while permitted as a US OTC drug
+  active, and common in India). **Check ZPT's *current* EU cosmetic status on CosIng
+  rather than assuming** — then, for the EU-strict *cosmetic* pick favour **piroctone
+  olamine / ketoconazole**, but treat a ketoconazole medicated shampoo as the *drug*
+  it is.
+- **Red flags** — "sulfate-free = always better" myth; "chemical-free"; "hair-growth
+  shampoo" (minoxidil is the real drug); silicones ≠ harmful; **severe scaling, pus,
+  pain, patchy loss, or sudden shedding → clinician, not ordinary shopping.**
+- **Cross-check brands (India)** — piroctone-olamine / ketoconazole shampoos for the
+  EU-aligned or medicated route; mass brands (H&S, Dove, Pantene) — *check the active;
+  Indian SKUs may differ*.
+- **Review lens** — real dandruff / oil control, dryness, fragrance, real vs fake.
+- **Evidence** — dermatology consensus; SCCS; regulator actions.
 
-## 7. Drain & oven cleaners (caustic / strong acid — highest hazard)
-- **What matters** — these are the **most dangerous consumer chemicals** in the home;
-  **safety and PPE dominate** any recommendation.
-- **Check live** — active (often **sodium hydroxide / lye**, sometimes strong acid) and
-  its CLP corrosive classification; **mandatory gloves + eye protection + ventilation**;
-  child-resistant packaging; **never mix** products or use in a closed drain with
-  standing chemical; surface compatibility.
-- **EU-vs-India gap** — EU corrosive labelling explicit; the burn/eye hazard is
-  universal → consider **mechanical options (plunger, drain snake) first**.
-- **Red flags** — no corrosive warning / child-resistant cap; encouragement to mix or
-  to pour onto an existing chemical; no PPE guidance; decanted/unlabeled.
-- **Cross-check** — corrosive hazard label + SDS, child-resistant packaging.
-- **Review lens** — effectiveness vs a clog, fumes, safety of use.
-- **Evidence** — CLP, SDS, manufacturer safety data.
+## 3. Skin & sun
 
-## 8. Air fresheners / room sprays / gels
-- **What matters** — this is **fragrance, not cleaning or disinfection** — VOCs,
-  fragrance allergens, aerosol flammability, and honest claims.
-- **Check live** — VOC / fragrance-allergen content; **aerosol flammability +
-  propellant** labelling (check current CLP rules); any **"kills airborne germs /
-  purifies air"** claim (usually weak — treat as a disinfectant claim needing evidence
-  per §5). It is **not a substitute for cleaning or ventilation.**
-- **EU-vs-India gap** — EU allergen / hazard labelling is explicit; Indian labels vary →
-  prefer allergen-declared, low-VOC products.
-- **Red flags** — "air-purifying / germ-killing" spray with no evidence; heavy
-  fragrance around asthmatics, infants or pets; aerosol used near flame; masking a smell
-  instead of removing the source.
-- **Cross-check** — allergen / VOC disclosure, reputable brand, any real air-quality
-  data behind a claim.
-- **Review lens** — scent quality/longevity, throw, irritation.
-- **Evidence** — CLP, fragrance-allergen science, indoor-air-quality guidance.
+### Sunscreen (lead here)
+- **What matters** — balanced UVA + UVB (not just a high SPF number); adequate
+  application + reapplication; filter quality; exact current Indian SKU.
+- **Check live**
+  - *Does it meet the EU UVA-to-SPF ratio + critical-wavelength rule* (the basis for
+    "broad spectrum" / the UVA-in-a-circle logo)? Confirm the **current** thresholds
+    → the EU broad-spectrum / UVA recommendation on EUR-Lex + ISO 24443. Practically:
+    look for a stated **UVA / PA level (PA++++)** or the UVA logo, not SPF alone.
+  - *Filters vs the EU Annex VI positive list and current caps* — **check the live
+    status / caps** of filters such as oxybenzone, octocrylene, homosalate (these
+    have been tightened over time) → CosIng / EUR-Lex Annex VI. The EU permits some
+    **modern UVA filters (Tinosorb, Uvinul) the US FDA hasn't approved** — verify
+    current lists both sides.
+- **Finished-product rule** — filters and the SPF number **don't prove** the finished
+  product's real SPF / UVA; want a credible **product-level SPF / UVA test** or
+  compliant label evidence. Ingredient analysis is supportive, not decisive.
+- **EU-vs-India gap** — India tends not to enforce the UVA-ratio rule as the EU does;
+  a big SPF with weak / undeclared UVA is a common Indian failure mode. Demand the
+  UVA / PA evidence (verify the current Indian requirement too).
+
+### Face care
+- **What matters** — match the concern to evidence-backed actives (acne: salicylic /
+  benzoyl peroxide / adapalene; ageing: retinoids, vitamin C; barrier: hyaluronic
+  acid, ceramides, niacinamide). Patch-test; introduce slowly.
+- **Check live** — the **current** EU caps on the actives that carry them (retinol,
+  salicylic acid, arbutin / alpha-arbutin, kojic acid — revised periodically) →
+  CosIng / EUR-Lex. Confirm the current status of any lightening agent.
+- **Safety** — retinoids → **pregnancy screen** (safe alternatives: azelaic acid,
+  vitamin C); **severe / cystic acne or infection → clinician**, not a serum shortlist.
+- **EU-vs-India gap** — **skin-lightening**: hydroquinone and mercury are
+  **EU-restricted in cosmetics** (check the *current* CosIng status), yet India's grey
+  market still sells "fairness" creams that can contain them, plus **undisclosed
+  topical steroids** (a documented Indian public-health problem — IADVL has campaigned
+  on it). Treat any rapid-fairness product with suspicion.
+- **Red flags** — "chemical-free"; SPF-in-makeup as sole protection; fairness /
+  rapid-lightening claims; an ingredient study presented as finished-product proof.
+- **Cross-check brands (India)** — sunscreen: Dot & Key, Minimalist, Re'equil, La
+  Shield, ISDIN / Korean imports; actives & barrier: Minimalist, Dr. Sheth's,
+  Cetaphil, CeraVe. *Verify formulation & authenticity — heavy counterfeiting.*
+- **Review lens** — white cast, greasiness, breakouts, eye-sting, authenticity.
+- **Evidence** — INCIDecoder, SCCS opinions, EU / Korea sunscreen testing,
+  dermatology consensus; treat EWG cautiously.
+
+## 4. Body & hygiene (soap, body wash, deodorant)
+- **What matters** — cleanse without over-stripping; pH fit; deodorant vs
+  antiperspirant; fragrance-allergen load (for sensitive skin).
+- **Check live**
+  - *Fragrance allergens:* the EU requires a set of named allergens to be declared
+    above set thresholds — **confirm the current list and thresholds** (the list keeps
+    growing) → the EU fragrance-allergen labelling rules / Annex III / CosIng.
+    Practically: scan the INCI list for allergens you react to (limonene, linalool,
+    citronellol, eugenol, geraniol…).
+  - *Preservatives* (parabens, phenoxyethanol, triclosan) vs **current** EU caps →
+    CosIng.
+- **EU-vs-India gap** — India doesn't mandate the same expanded allergen breakdown, so
+  an Indian label can hide allergens an EU label would name. Note: **soap "grade /
+  TFM" is an Indian (BIS) richness marker** — useful locally but *not* the EU's
+  ingredient-safety bar; use both lenses. On **antiperspirant aluminium**: it is
+  currently EU-permitted and the cancer / Alzheimer's scare lacks scientific support
+  (per SCCS) — a contested-but-unsubstantiated worry, yours to weigh (verify current
+  view).
+- **Red flags** — triclosan "antibacterial" soaps; harsh sulfate washes for dry skin;
+  heavy fragrance for sensitive skin; **a painful / spreading rash → clinician, not a
+  body-wash pick.**
+- **Cross-check brands (India)** — soap: Dove, Cetaphil / syndet bars (sensitive),
+  Medimix / Mysore Sandal (herbal); wash: Dove; deo / antiperspirant: Nivea, Dove,
+  Rexona.
+- **Review lens** — post-wash dryness, fragrance longevity, sweat / odour control,
+  reactions.
+- **Evidence** — SCCS opinions; BIS TFM (India); health-body statements on aluminium;
+  dermatology consensus.
+
+## 5. Baby & child care
+- **What matters** — age-appropriateness, minimal irritant / fragrance load,
+  swallowing / eye-exposure risk, caregiver-use directions, the product's intended
+  age range. **Default to the gentlest evidence-backed option.**
+- **Check live** — tear-free / pH claims vs the actual label; any active's current
+  status and child limits (CosIng / SCCS); is an adult active being repurposed for
+  babies?
+- **Red flags** — adult actives on babies without evidence; "natural" treated as
+  automatically hypoallergenic; essential oils / fragrance assumed harmless; **any
+  rash, persistent distress, or reaction → paediatrician, not a product swap.**
+- **Cross-check brands (India)** — Sebamed Baby, Cetaphil Baby, Mamaearth / The Moms
+  Co (verify claims), Johnson's (check the *current* formula). *Cross-check, not a
+  start.*
+- **Review lens** — irritation, scent, tear-free in practice, real vs fake.
+- **Evidence** — paediatric-dermatology guidance; SCCS; recalls.
+
+## 6. Menstrual & intimate care
+- **What matters** — product type + correct size / absorbency, material sensitivity,
+  hygiene + change interval; **device-quality evidence** for reusables (cups /
+  discs); **fragrance-free** for intimate skin.
+- **Check live** — material / standards for the format (e.g. medical-grade silicone +
+  any current BIS standard for cups); fragrance-allergen labelling; confirm a product
+  is actually designed for internal use before treating it as such.
+- **Red flags** — perfumed "intimate wash" positioned as medically necessary; internal
+  use of products not designed for it; **persistent odour, pain, itching, sores,
+  unusual discharge, or fever → clinician, not shopping.**
+- **Cross-check brands (India)** — pads / tampons (Sofy, Whisper, Stayfree), cups
+  (Sirona, Pee Safe), intimate wash *only if fragrance-free* (verify). *Cross-check,
+  not a start.*
+- **Review lens** — comfort / leakage, material feel, reactions, real vs fake.
+- **Evidence** — gynaecology guidance; device-material standards; recalls.
 
 ---
 
-> Out of scope here (different regimes — handle via the **undefined-category
-> fallback** in `instructions.md`, and I'll add a file when you ask): **household
-> insecticides / repellents** (mosquito, cockroach — a pesticide regime under
-> CIB&RC), **hand wash / sanitizer / soap** (personal care), **car / industrial
-> chemicals**, and durable **cleaning hardware** (mops, brushes → home goods).
+> Other personal-care subcategories (shaving / hair-removal, lip care, hand
+> sanitizer, hair colour, fragrance) aren't detailed yet — handle them via the
+> **undefined-category fallback** in `instructions.md` (best-effort + offer to add a
+> section), and I'll fold in a full section when I ask.
 
-*This file names what to check and where. Current statuses live at EUR-Lex (EU
-detergents / CLP / biocide regime) / CDSCO / CIB&RC / BIS — fetch them in Deep mode;
-don't rely on figures or regulation numbers hard-coded in any file, including this one.*
+*This file names what to check and where. The current numbers **and legal statuses**
+live at CosIng / EUR-Lex / SCCS — fetch them in Deep mode; don't rely on figures or
+"banned/permitted" labels hard-coded in any file, including this one.*
