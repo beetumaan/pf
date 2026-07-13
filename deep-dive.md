@@ -51,6 +51,10 @@ and regulatory actions (CDSCO / FSSAI notices, FDA warning letters, EU RASFF
 alerts, recalls). **State clearly when no independent product-level data exists.**
 - Scrutinise the testers too — weight transparent, published methodology (NSF,
   Informed Sport, USP) more heavily; an independent test is evidence, not gospel.
+  **Don't score all logos alike: separate certification / testing programmes** (NSF
+  Certified for Sport, Informed Sport, USP Verified) **from commercial testing /
+  rating services** (ConsumerLab, Labdoor), and check whether the **exact Indian SKU
+  / batch is actually covered**, not just a US version.
 - **Tag each source** by provenance (primary / independent / brand / retailer /
   affiliate — see *Principles* in `instructions.md`); lean on primary + independent.
 - **Watch staleness.** Ingredient decoders can lag real reformulations — check the
